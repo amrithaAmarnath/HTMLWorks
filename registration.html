@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <h1> Registration Form</h1>
+    <!--http methods GET , POST, PUT, PATCH, DELETE-->
+     <form action="" method="POST" enctype="multipart/form-data"> 
+        <div>
+            <label for="id_firstname">Name:</label>  <!--uneditable text we use label tag-->
+             <!--"text","number","email","password","button","radio","checkbox","range","color"-->
+            <input type="text" placeholder="enter first name" id="id_firstname" class=""/> 
+        </div>
+        
+        <div>
+            <label for="id_lastname">Last Name</label>
+            <input type="text" placeholder="enter last name" id="id_lastname" />
+        </div>
+        <div>
+            <label for="">Email:</label>
+            <input type="email" placeholder="enter email"id="id_email">
+        </div>
+        <div>
+            <label for="id_password">Password</label>
+            <input type="password" id="id_password" clas="">
+        </div>
+        <div>
+            <label for="id_phone">Phone Number:</label>
+            <input type="text" placeholder="enter phone number" id="id_phone">
+        </div>
+        <div>
+            <label for="">Gender</label>
+            <label for="id_male">Male</label>
+            <input type="radio" name="gender" id="id_male">
+            <label for="id_female">Female:</label>
+            <input type="radio" name="gender" id="id_female">
+            <label for="id_female">Other:</label>
+            <input type="radio" name="gender" id="id=other">
+        </div>
+        <div>
+            <label for="id_lang">language</label>
+            <select name="" id="id_lang">
+                <option value="0">select language</option>
+                <option value="1">Java</option>
+                <option value="2">Python</option>
+                <option value="3">php</option>
+                <option value="4">cpp</option>
+            </select>
+        </div>
+        <div>
+            <label for="id_zipcode">Zip Code</label>
+            <input type="text" id="id_zipcode">
+        </div>
+        <div>
+            <label for="id_about">About:</label>
+            <textarea name="" id="id_about" cols="30" rows="3" placeholder="write about yourself"></textarea>
+        </div>
+        <div>
+            <label for="id_image" >Student Image</label>
+            <input type="file" name="" id="id_image">
+        </div>
+        <div>
+            <label for="">Skill Level</label>
+            <input type="range" min="1" max="100" value="50">
+        </div>
+        <div>
+            <label for="">Skill Level</label>
+            <input type="checkbox" id="id_cpp">c++
+            <input type="checkbox" id="id_java">Java
+            <input type="checkbox" id="id_python">Python
+        </div>
+
+        <div>
+            <input type="submit" value="Register">
+        </div>
+          
+     </form>
+</body>
+</html>
